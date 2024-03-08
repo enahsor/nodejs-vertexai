@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.6.0](https://github.com/googleapis/nodejs-vertexai/compare/v0.5.0...v0.6.0) (2024-03-08)
+
+
+### Features
+
+* Support functionCalls property in GenerationContentCandidate interface for non streaming mode ([89568a6](https://github.com/googleapis/nodejs-vertexai/commit/89568a654550f51ed7e280eb6108f6bdb13e7a92))
+
+
+### Bug Fixes
+
+* for function call, role should be model. ([3b80dc8](https://github.com/googleapis/nodejs-vertexai/commit/3b80dc86b8c5d1e4be0afe99bca35201fd812abb))
+* functionResponse should be user role ([d092ab4](https://github.com/googleapis/nodejs-vertexai/commit/d092ab4bb0862fc8471e663a4fb7084b432baf74))
+* Make appendHistory private. ([a1bedcd](https://github.com/googleapis/nodejs-vertexai/commit/a1bedcdb6fe71d73a7601c4fafda699b0b8d1698))
+* pass tools from getGenerativeModel and startChat methods to top level functions ([bbaf78a](https://github.com/googleapis/nodejs-vertexai/commit/bbaf78a5286ca39074b72bcce7eb7856fe0bec70))
+* pass tools from getGenerativeModel to chatSession. ([907ad74](https://github.com/googleapis/nodejs-vertexai/commit/907ad74aefe24082607431c34027df6ae6d46a08))
+
 ## [0.5.0](https://github.com/googleapis/nodejs-vertexai/compare/v0.4.0...v0.5.0) (2024-02-29)
 
 
